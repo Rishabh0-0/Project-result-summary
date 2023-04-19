@@ -1,0 +1,156 @@
+body {
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.outer-box {
+    display: flex;
+    width: 600px;
+    border-radius: 30px;
+    box-shadow: hsl(221, 100%, 96%) 0px 8px 24px;
+}
+
+/********RESULT BOX*********/
+
+.result-box {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+}
+
+#result-head {
+    font-weight: 700;
+}
+
+#result-circle {
+    height: 150px; width: 150px;
+    border-radius: 100%;
+    margin: 20px auto;
+    line-height: normal;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+}
+
+#circle-text1 { 
+    display: inline-block;   
+    margin: 30px auto 0 auto;
+    font-size: 55px;
+}
+
+#circle-text2 {
+    margin: 0;
+    color: hsl(241, 100%, 89%);
+    bottom: 10px;
+    font-size: 15px;
+}
+
+#result-text1 {
+    margin: 0;
+}
+
+#result-text2 {
+    line-height: normal;
+    color: hsl(241, 100%, 89%);
+    margin: 10px 40px;
+}
+
+/*******SUMMARY BOX********/
+
+.summary-box {
+    
+    width: 50%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+#summary-head {
+    padding-left: 35px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.attributes-box {
+    background-color: pink;
+
+    margin: 0 35px;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    border-radius: 10px;
+}
+
+#att1 { 
+    background-color: ;
+}
+
+.coltext1 {
+    margin-left: 20px;
+}
+
+.coltext2 {
+    position: absolute;
+    right: 10px;
+}
+
+#attval {
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+}
+
+.att1name {
+    color: hsl(0, 100%, 67%)
+}
+
+.att2name {
+    color: hsl(39, 100%, 56%);
+}
+
+.att3name {
+    color: hsl(166, 100%, 37%);
+}
+
+.att4name {
+    color: hsl(234, 85%, 45%);
+}
+
+#att1 {
+    background-color: hsl(0, 100%, 90%);
+}
+
+#att2 {
+    background-color: hsl(39, 100%, 90%);
+}
+
+#att3 {
+    background-color: hsl(166, 100%, 90%);;
+}
+
+#att4 {
+    background-color: hsl(234, 85%, 90%);
+}
+
+.btn {
+    margin: 35px; margin-top: 20px;
+    height: 50px;
+
+    border-style: none;
+    border-radius: 25px;
+
+    background-color: hsl(252, 100%, 67%); color: white;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    background-color: hsl(224, 30%, 27%);
+}
