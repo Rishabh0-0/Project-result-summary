@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--displays size properly based on user's device-->
 
         <link rel="icon" sizes="32x32" href="assets/images/favicon-32x32.png">
         <link rel="stylesheet" href="css/styles.css">
@@ -10,44 +11,56 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
-
-        <title>Result Summary Component</title>
     </head>
 
     <body>
-        <div class="outer-box">
-            <div class="result-box">
-                <h3 id="result-head">Your Result</h3>
-                <div id="result-circle">
-                    <h1 id="circle-text1">76</h1>
-                    <p id="circle-text2">of 100</p>
-                </div>
-                <h1 id="result-text1">Great</h1>
-                <P id="result-text2">You scored higher than 65% of the people who have taken these tests</P>
-            </div>
-            <div class="summary-box">
-                <h3 id="summary-head">Summary</h3>
-                <div class="attributes-box" id="att1">
-                    <img src="assets/images/icon-reaction.svg" alt="reaction-icon">
-                    <span class="coltext1 att1name">Reaction</span>
-                    <span class="coltext2"><span id="attval">80</span> / 100</span>
-                </div>
-                <div class="attributes-box" id="att2">
-                    <img src="assets/images/icon-memory.svg" alt="memory-icon">
-                    <span class="coltext1 att2name">Memory</span>
-                    <span class="coltext2"><span id="attval">92</span> / 100</span>
-                </div>
-                <div class="attributes-box" id="att3">
-                    <img src="assets/images/icon-verbal.svg" alt="verbal-icon">
-                    <span class="coltext1 att3name">Verbal</span>
-                    <span class="coltext2"><span id="attval">61</span> / 100</span>
-                </div>
-                <div class="attributes-box" id="att4">
-                    <img src="assets/images/icon-visual.svg" alt="visual-icon">
-                    <span class="coltext1 att4name">Visual</span>
-                    <span class="coltext2"><span id="attval">72</span> / 100</span>
-                </div>
-                <button class="btn">Continue</button>
+        <div class="card">
+            <div class="card-container">
+                <section class="result">
+                    <h3 class="title">Your result</h3>
+                    <div class="circle">
+                        <h1>76</h1>
+                        <p>of 100</p>
+                    </div>
+                    <b>Great</b>
+                    <p class="info">
+                        You scored higher than 65% of the people who have taken these tests. 
+                    </p>
+                </section>
+                <section class="summary">
+                    <h3 class="title">Summary</h3>
+                    <div class="rows">
+                        <div class="row">
+                            <div class="badge">
+                                <img src="assets/images/icon-reaction.svg" alt="icon">
+                                <b>Reaction</b>
+                            </div>
+                            <p><b>80</b> / 100</p>
+                        </div>
+                        <div class="row">
+                            <div class="badge">
+                                <img src="assets/images/icon-memory.svg" alt="icon">
+                                <b>Memory</b>
+                            </div>
+                            <p><b>92</b> / 100</p>
+                        </div>
+                        <div class="row">
+                            <div class="badge">
+                                <img src="assets/images/icon-verbal.svg" alt="icon">
+                                <b>Verbal</b>
+                            </div>
+                            <p><b>61</b> / 100</p>
+                        </div>
+                        <div class="row">
+                            <div class="badge">
+                                <img src="assets/images/icon-visual.svg" alt="icon">
+                                <b>Visual</b>
+                            </div>
+                            <p><b>72</b> / 100</p>
+                        </div>
+                    </div>
+                    <button class="btn">Continue</button>
+                </section>
             </div>
         </div>
     </body>
