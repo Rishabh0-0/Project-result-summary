@@ -33,17 +33,17 @@ body {
 .card {
     box-shadow: rgba(0, 0, 0, .24) 0 3px 8px;
     border-radius: 2rem;
-    width: 650px;
     background-color: white;
 }
 
 .card-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .result {
-    width: 50%;
+    width: 325px;
     padding: 2.5rem 2rem;
     border-radius: 2rem;
     background: linear-gradient(to bottom, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
@@ -90,7 +90,7 @@ body {
 }
 
 .summary {
-    width: 50%;
+    width: 325px;
     padding: 2.5rem 2rem;
     display: flex;
     flex-direction: column;
